@@ -11,7 +11,7 @@ LoadCheckoutPaymentContext(function (Checkout, PaymentOptions) {
     }
 
     if (urlApp.includes("stg")) {
-        urlToken = "https://stgapi.mundipagg.com/core/v1/tokens"; // NOSONAR
+        urlToken = "https://nuvemshop-app.mundipagg.com"; // NOSONAR
     }
 
     const nuvemShopErrorCodes = {
